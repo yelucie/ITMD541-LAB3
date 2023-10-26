@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <h2>ITMD 541 - LAB 3 - Lucie YE</h2>
+    <h1>Tip Calculator</h1>
+    <form class="calculator">
+        <label for="bill">Bill Total:</label>
+        <input type="text" id="bill" name="bill">
+        
+        <label for="tip">Tip:</label>
+        <input type="range" id="tip" name="tip" min="0" max="100" value="15">
+        
+        <label>Tip Percentage: <input type="text" id="tip-percentage" name="tip-percentage" disabled></label>
+        <label>Tip Amount: <input type="text" id="tip-amount" name="tip-amount" disabled></label>
+        <label>Total Bill with Tip: <input type="text" id="total" name="total" disabled></label>
+    </form>
+</body>
+</html>
