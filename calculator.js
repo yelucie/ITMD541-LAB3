@@ -9,9 +9,11 @@ document.addEventListener("DOMContentLoaded", (event)=>{
     let errorMsg = document.createTextNode('Please enter a 2 decimal number as follow: 12.34');
     error.appendChild(errorMsg);
 
+    // Initial values
     var billVal = 0;
     var tipVal = 15;
 
+    // Event listener
     bill.addEventListener("input", calculator);
     tip.addEventListener("input", calculator);
 
