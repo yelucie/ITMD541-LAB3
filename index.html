@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="calculator.js"></script>
     <title>Tip Calculator</title>
 </head>
@@ -10,15 +11,11 @@
     <h2>ITMD 541 - LAB 3 - Lucie YE</h2>
     <h1>Tip Calculator</h1>
     <form class="calculator">
-        <label for="bill">Bill Total:</label>
-        <input type="text" id="bill" name="bill">
-        
-        <label for="tip">Tip:</label>
-        <input type="range" id="tip" name="tip" min="0" max="100" value="15">
-        
-        <label>Tip Percentage: <input type="text" id="tip-percentage" name="tip-percentage" disabled></label>
-        <label>Tip Amount: <input type="text" id="tip-amount" name="tip-amount" disabled></label>
-        <label>Total Bill with Tip: <input type="text" id="total" name="total" disabled></label>
+        <label>Bill Total: <input type="text" id="bill" name="bill"></label>
+        <label>Tip: <input type="range" id="tip" name="tip" min="0" max="100" value="15"></label>
+        <label>Tip Percentage: <input type="text" id="tip-percentage" name="tip-percentage" value="15" disabled></label>
+        <label>Tip Amount: <input type="text" id="tip-amount" name="tip-amount" value="0" disabled></label>
+        <label>Total Bill with Tip: <input type="text" id="total" name="total" value="0" disabled></label>
     </form>
 </body>
 </html>
