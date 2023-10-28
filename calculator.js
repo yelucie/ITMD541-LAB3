@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", (event)=>{
     // Error management
     var error = document.createElement('p');
     error.id = 'error';
-    let errorMsg = document.createTextNode('Please enter a 2 decimal number as follow: 12.34');
+    let errorMsg = document.createTextNode('Please enter a 2 decimal number.\nExample: 12.34');
     error.appendChild(errorMsg);
 
     // Initial values
