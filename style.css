@@ -60,7 +60,6 @@ input[type="range"] {
 
 input[type="text"][disabled] {
     background-color: #cdebcf;
-    color: #5c9856;
 }
 
 #error {
