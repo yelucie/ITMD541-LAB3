@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #a2e4b8; /* Updated background color - pastel green */
+    background-color: #8bc28f;
     font-family: 'Garamond', 'Baskerville';
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .calculator-box {
-    background-color: #c8f3d6; /* Updated calculator box background color - pastel green */
+    background-color: #aee9b7;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -21,12 +21,12 @@ body {
 
 .calculator-box h1 {
     font-size: 36px;
-    color: #3a6f54; /* Updated calculator title color - darker shade of pastel green */
+    color: #39664e;
 }
 
 .calculator-box h2 {
     font-size: 24px;
-    color: #4f8d6b; /* Updated subtitle color - mid-tone pastel green */
+    color: #527f5f;
 }
 
 .calculator {
@@ -39,32 +39,40 @@ label[for="total"] {
     display: block;
     margin-bottom: 15px;
     font-size: 18px;
-    color: #507e60; /* Updated label text color - mid-tone pastel green */
+    color: #3f6b4f;
 }
 
 input[type="text"],
 input[type="range"] {
     width: calc(100% - 10px);
-    padding: 10px;
-    border: 1px solid #82b898; /* Updated input border color - lighter shade of pastel green */
+    border: 1px solid #7faa82;
     border-radius: 5px;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px 0;
+}
+
+input[type="range"] {
+    accent-color: #527f5f;
 }
 
 input[type="text"][disabled] {
-    background-color: #c0f1ce; /* Updated disabled input background color - lighter pastel green */
-    color: #5d9a6a; /* Updated disabled input text color - darker shade of pastel green */
+    background-color: #cdebcf;
+    color: #5c9856;
 }
 
 #error {
     position: absolute;
-    bottom: -90px; /* Adjust the position to hide the error message initially */
+    bottom: -90px;
     left: 50%;
     transform: translateX(-50%);
     width: auto;
-    padding: 10px 20px; /* Adjust padding */
-    background-color: #ffdddd; /* Set your error message background color */
-    color: #c94c4c; /* Set your error message text color */
-    font-size: 14px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #ffdddd;
+    border-radius: 6px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #c94c4c;
+    font-size: 14px;
 }
